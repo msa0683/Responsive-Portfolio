@@ -242,18 +242,29 @@ input[type=submit] {
   .main-section {
     margin-left: 125px;
     max-width: 420px;
-                 
-  }
+  } 
+
   .sidebar {margin-right: 125px;}
   .auth-image {width: 100%;}
   .container {max-width: 980px;}
-  #masthead {padding:0 125px;
-           
-  }
+  #masthead {padding:0 125px;}
   
 }
 
 @media screen and (max-width: 768px){
+  .auth-image {width: 50%;}
+  .main-section, .sidebar {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    max-width: 768px;
+  }
+  #masthead {
+    padding: 0 2.5%;
+    width: 100%;
+    max-width: 768px;
+  }
+
   
 }
 
