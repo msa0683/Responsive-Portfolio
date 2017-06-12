@@ -274,6 +274,7 @@ input[type=submit] {
 
 @media screen and (max-width: 640px){
   #masthead {
+    position: static;
     padding: 0;
   }
   #logo {width: 100%;}
@@ -290,7 +291,8 @@ input[type=submit] {
     padding: 0;
     border: none;
   }
-  .main-section{margin-top: 50px;}
+  .main-section{margin-top: 20px;}
+  #main-container {padding: 0;}
   .auth-image {width: 100%;}  
   .work { 
     width: 100%;
