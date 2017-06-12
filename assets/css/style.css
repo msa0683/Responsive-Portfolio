@@ -247,7 +247,8 @@ input[type=submit] {
   .sidebar {margin-right: 125px;}
   .auth-image {width: 100%;}
   .container {max-width: 980px;}
-  #masthead {padding:0 125px;}  
+  #masthead {padding:0 125px;} 
+  .work {width: 100%;} 
 }
 
 @media screen and (max-width: 768px){
