@@ -264,7 +264,12 @@ input[type=submit] {
     width: 100%;
     max-width: 768px;
   }
-  
+  .work { 
+    width: 47.5%;
+  }
+  .work:nth-child(even) {
+    margin-right: 5%;
+  }
 }
 
 @media screen and (max-width: 640px){
